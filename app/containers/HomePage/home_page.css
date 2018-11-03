@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+.wrapper-behind {
+    width: 100%;
+    background-color: #042d56;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.grace-font {
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+.roboto-font {
+    font-family: 'Roboto', sans-serif;
+}
+
+.roboto-condensed-font {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.anton-font {
+    font-family: 'Anton', sans-serif;
+}
+
+.abel-font {
+    font-family: 'Abel', sans-serif;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+

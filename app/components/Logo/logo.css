@@ -1,0 +1,53 @@
+.logo {
+    padding: 20px;
+    width: 100%;
+    color: #EDF5E1;
+    margin-bottom: 1%;
+}
+
+.img-logo {
+    border-radius: 50%;
+}
+
+.logo-col {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-top {
+    position: absolute;
+    z-index: 5;    
+    font-size: 1.5em;
+    transform: rotate(-8deg);
+    text-align: center;
+    top: 99px;
+    left: 40%;
+}
+
+.logo-bottom {
+    position: absolute;
+    z-index: 6;    
+    font-size: 2.8em;
+    transform: rotate(-8deg);
+    text-align: center;
+    top: 102px;
+    left: 43%;
+}
+
+.logo-links {
+    margin-top: 10px;
+}
+
+.no-space {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 800px) {
+    .logo-links {
+        margin-top: 50px;
+    }
+}
